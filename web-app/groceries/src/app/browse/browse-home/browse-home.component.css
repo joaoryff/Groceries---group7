@@ -1,0 +1,40 @@
+p {
+  font-family: Arial;
+}
+#bannerDiv {
+  margin-top: 100px;
+  border: thin solid lightgrey;
+}
+#banner {
+  margin-top: 60px;
+  margin-bottom: 50px;
+  border: thin solid lightgrey;
+  width: 800px;
+}
+#bannerContent {
+  margin-left: 50px;
+}
+#bannerTitle {
+  font-family: "Marker Felt";
+}
+#allSalesButton {
+  height: 45px;
+  width: 125px;
+}
+.wrapper {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+}
+li {
+  list-style-type: none;
+  padding-bottom: 5px;
+}
+#contentItems {
+  display: flex;
+  justify-content: center;
+}
+.saleDiv {
+  padding: 100px;
+  text-align: center;
+}

@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeModule } from './home/home.module';
+import {BrowseModule } from "./browse/browse.module";
 import { SalesModule } from './sales/sales.module';
 import { StoresModule } from './stores/stores.module';
 
@@ -17,6 +18,7 @@ import { StoresModule } from './stores/stores.module';
     StoresModule,
     SalesModule,
     HomeModule,
+    BrowseModule,
     BrowserModule
   ],
   providers: [],
