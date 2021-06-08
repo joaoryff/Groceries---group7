@@ -1,2 +1,13 @@
 # Groceries---group7
-Project by Joao, Chloe, Jordan and Yannick
+
+## Author
+
+Project by Chloe, Joao, Jordan and Yannick
+
+## Introduction
+
+A simple grocerie shopping site pulling data from a back-end.
+
+## Functionality
+
+The front end and backend are completly independant.
