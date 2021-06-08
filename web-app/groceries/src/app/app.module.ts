@@ -3,12 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavBarEntityComponent } from './navBar/nav-bar-entity/nav-bar-entity.component';
+import { BrowseModule } from './browse/browse.module';
+import { HomeModule } from './home/home.module';
+import { SalesModule } from './sales/sales.module';
+import { StoresModule } from './stores/stores.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavBarEntityComponent
+    BrowseModule,
+    HomeModule,
+    StoresModule,
+    SalesModule
   ],
   imports: [
     BrowserModule,
